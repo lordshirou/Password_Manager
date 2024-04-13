@@ -39,7 +39,7 @@ ul>li {
 }
 
 ul>li:hover {
-    color: white;
+    color: rgb(212, 233, 20);
 
 }
 
@@ -54,6 +54,8 @@ tr {
 .con {
     max-width: 80vw;
     margin: 23px auto;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -73,6 +75,16 @@ h3 {
     border-radius: 8px;
     margin: 25px 0;
     cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #fff;
+    color: black;
+}
+
+.btnsm:hover {
+    background-color: #fff;
+    color: black;
 }
 
 .btnsm {
